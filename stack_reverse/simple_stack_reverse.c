@@ -11,9 +11,8 @@ int stack_revers() {
     return 0;
 }
 
-int main() {
-
+int main() 
+{
     stack_revers();
-
     return 0;
 }

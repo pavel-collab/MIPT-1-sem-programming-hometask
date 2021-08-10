@@ -6,8 +6,8 @@
 #include "List.h"
 #include "function_prototypes.h"
 
-int main(int argc, char* argv[]) {
-
+int main(int argc, char* argv[]) 
+{
     float q = atof(argv[1]);
     
 

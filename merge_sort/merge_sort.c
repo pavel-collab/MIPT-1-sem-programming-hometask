@@ -4,8 +4,8 @@
 #include "List.h"
 #include "function_prototypes.h"
 
-int main() {
-
+int main() 
+{
     List* calendar = NULL;
 
     input(&calendar);

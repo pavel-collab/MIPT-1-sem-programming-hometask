@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int word_revers() {
-
+int word_revers() 
+{
     int c = 0;
     int s = 0;
 
@@ -25,11 +25,10 @@ int word_revers() {
 
     printf("%c", c);
     return s;
-
 }
 
-void sentense_revers() {
-
+void sentense_revers() 
+{
     int status = word_revers();
 
     if (status == 0) {
@@ -47,11 +46,10 @@ void sentense_revers() {
         printf("\n");
         sentense_revers();
     } 
-
 }
 
-int main() {
-
+int main() 
+{
     sentense_revers();
-
+    return 0;
 }

@@ -7,7 +7,7 @@ void list_free(List* lst);
 
 void list_print(List* lst);
 
-void split (List* lst, List** a, List** b);
+void split(List* lst, List** a, List** b);
 
 void merge(List** lst, List* a, List* b);
 

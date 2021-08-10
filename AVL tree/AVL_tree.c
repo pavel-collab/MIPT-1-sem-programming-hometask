@@ -4,8 +4,8 @@
 #include "Tree.h"
 #include "function prototypes.h"
 
-int main() {
-
+int main()
+{
     Tree* test = NULL;
     int a = 0;
 
